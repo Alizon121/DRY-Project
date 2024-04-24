@@ -11,17 +11,9 @@ if (num1 > num2) {
 
 
 // // Find the biggest number of two numbers and multiply it by two
-// function multiplyBiggerNumByTwo(num1, num2) {
-//   let bigNum;
-//   if (num1 > num2) {
-//     bigNum = num1;
-//     return bigNum * 2;
-//   } else {
-//     bigNum = num2;
-//     return bigNum * 2;
-//   }
-// }
-
+function multiplyBiggerNumByTwo(num1, num2) {
+ return findBigNum(num1, num2) * 2
+}
 
 
 // // Divides the bigggest number by three
